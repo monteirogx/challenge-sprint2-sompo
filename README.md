@@ -28,7 +28,7 @@ O objetivo desta aplicação é analisar em tempo real os dados de telemetria de
 
 Para a predição, utilizei Inteligência Artificial com o algoritmo **Random Forest Classifier**. O modelo foi submetido a uma validação estatística rigorosa (separando 20% dos dados para teste) e alcançou uma **Acurácia de 99.0%**. A Matriz de Confusão comprovou a eficácia para o negócio: `[[187, 0], [2, 11]]`. A IA não gerou nenhum alarme falso (0 falsos positivos) e previu corretamente as 11 quebras iminentes, permitindo à Sompo atuar de forma preventiva e mitigar riscos.
 
-**Demonstração em Vídeo (Pitch):** 
+**Demonstração em Vídeo: https://youtu.be/G4LX1JE5Fsc** 
 
 
 ## 📁 Estrutura de pastas
