@@ -6,9 +6,9 @@
 
 <br>
 
-# Nome do projeto
+# Sompo Predict
 
-## Nome do grupo
+## Grupo 55
 
 ## 👨‍🎓 Integrantes: 
 - <a href="https://www.linkedin.com/in/guilherme-monteiro-tech/">Guilherme Monteiro Bitencourt</a>
