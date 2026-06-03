@@ -55,7 +55,13 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+1. **Pré-requisitos:** Certifique-se de ter o Python 3.x instalado em sua máquina e uma IDE de sua preferência (recomendamos o VS Code).
+2. **Instalação das Bibliotecas:** Abra o terminal na raiz do projeto e instale as dependências executando o comando:
+   `pip install pandas scikit-learn streamlit`
+3. **Execução:** Navegue até a pasta `src`, onde estão concentrados os códigos fonte, o modelo treinado `.pkl` e o banco de dados `.db`.
+4. **Iniciando o Dashboard:** No terminal, dentro da pasta `src`, execute o comando mágico do Streamlit:
+   `streamlit run app.py`
+5. O aplicativo será aberto automaticamente em uma nova aba do seu navegador de internet padrão.
 
 
 ## 🗃 Histórico de lançamentos
