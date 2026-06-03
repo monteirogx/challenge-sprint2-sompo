@@ -26,7 +26,13 @@
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+A manutenção reativa no agronegócio gera custos altíssimos com sinistros e máquinas paradas. O **Sompo Predict** foi desenvolvido para a Sprint 2 do Challenge FIAP + Sompo Seguros e atua na **Prevenção de Quebra por Sobrecarga**.
+
+O objetivo desta aplicação é analisar em tempo real os dados de telemetria de maquinários agrícolas (Temperatura do Motor, RPM, Horas de Uso Contínuo e Idade do Equipamento) para prever falhas mecânicas antes que elas ocorram. O fluxo de dados incluiu a geração de um dataset simulado, persistência em banco relacional SQLite e a construção de um Dashboard front-end interativo com Streamlit.
+
+Para a predição, utilizamos Inteligência Artificial com o algoritmo **Random Forest Classifier**. O modelo foi submetido a uma validação estatística rigorosa (separando 20% dos dados para teste) e alcançou uma **Acurácia de 99.0%**. A Matriz de Confusão comprovou a eficácia para o negócio: `[[187, 0], [2, 11]]`. A IA não gerou nenhum alarme falso (0 falsos positivos) e previu corretamente as 11 quebras iminentes, permitindo à Sompo atuar de forma preventiva e mitigar riscos.
+
+**Demonstração em Vídeo (Pitch):** 
 
 
 ## 📁 Estrutura de pastas
